@@ -6,8 +6,12 @@ You need to build the UI and functionality for managing invoice line items (Crea
 
 ### Getting Started
 1. Clone the repository and navigate to the project directory
-1. Install dependencies with npm install
+1. Install dependencies with
+   ```
+   npm install
+   ```
 1. Start the development server with npm run dev
+   
 ### Task Requirements
 1. Run the API Project
 The client application communicates with a .NET API. You'll need to:
