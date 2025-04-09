@@ -1,4 +1,4 @@
-import type { InvoiceMutation, Invoice } from '@/client';
+import type { InvoiceMutation, InvoiceHeader } from '@/client';
 import {
   getInvoiceByInvoiceIdOptions,
   putInvoiceByInvoiceIdMutation,
@@ -28,7 +28,7 @@ const EditInvoiceHeader = () => {
   return <InvoiceHeaderForm invoice={data} />;
 };
 
-const InvoiceHeaderForm = ({ invoice }: { invoice: Invoice }) => {
+const InvoiceHeaderForm = ({ invoice }: { invoice: InvoiceHeader }) => {
   const queryClient = useQueryClient();
   const [invoiceMutationData, setInvoiceMutationData] =
     useState<InvoiceMutation>({
