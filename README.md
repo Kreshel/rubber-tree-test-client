@@ -10,7 +10,10 @@ You need to build the UI and functionality for managing invoice line items (Crea
    ```
    npm install
    ```
-1. Start the development server with npm run dev
+1. Start the development server with
+   ```
+   npm run dev
+   ```
    
 ### Task Requirements
 1. Run the API Project
